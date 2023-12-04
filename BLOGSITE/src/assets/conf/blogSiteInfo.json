@@ -1,0 +1,429 @@
+{
+    "excludeFields": [
+        "excludeFields",
+        "name",
+        "designation",
+        "experience",
+        "contact"
+    ],
+    "name": "Dheeraj G",
+    "designation": {
+        "label": "Designation",
+        "value": "Software Engineering Specialist"
+    },
+    "experience": {
+        "label": "Experience",
+        "value": {
+            "years": 2,
+            "yearsPlus": "2+",
+            "yearsBrief": "2+ Years",
+            "yearsDetailed": "Experience of 2+ Years"
+        }
+    },
+    "skills": {
+        "label": "Skill Highlights",
+        "icon": "mdi-wrench-cog",
+        "value": [
+            "JavaScript",
+            "VueJS Framework",
+            "ReactJS",
+            "Java",
+            "MySQL",
+            "RESTful Web Services",
+            "HTML",
+            "CSS",
+            "Spring Boot",
+            "NodeJS",
+            "Vuetify",
+            "Vuex",
+            "Ag-grid",
+            "Pinia",
+            "Linux Basics",
+            "Atlassian JIRA",
+            "Webpack",
+            "GitHub"
+        ]
+    },
+    "work": {
+        "label": "Work Experience",
+        "icon": "mdi-briefcase-clock",
+        "value": [
+            {
+                "company": "Dassault Systemes",
+                "designation": "Software Engineering Specialist",
+                "workDate": {
+                    "from": "September 2021",
+                    "to": "Present"
+                },
+                "location": "Bangalore",
+                "role": "Full Stack Web Developer",
+                "description": [
+                    "Developed Full Scale Web Applications known as widgets that served Product Lifecycle Management business requirement for more than 6 projects of Proctor & Gamble client.",
+                    "Mainly used frontend frameworks such as VueJS framework(ES6 JavaScript), Vuetify, Ag-grid, etc. for UI development.",
+                    "Built RESTful Web Services in Java as backend with Oracle MQL database.",
+                    "Exposure to NodeJS & NPM.",
+                    "Implemented complex business logics for multiple projects and procedures.",
+                    "Worked on Bug Fixing, Analyzing, Developing clean, scalable and reusable code, Upgrading & Migrating web applications.",
+                    "Used tools such as Webpack for file bundling, GitHub, SVN & JIRA.",
+                    "Actively contributed to Widget COE community that developed and supported reusable components.",
+                    "Delivered presentations on best coding practices and new concepts in VueJS and ES6 JavaScript."
+                ]
+            },
+            {
+                "company": "Contriver",
+                "designation": "Operations Analyst Intern",
+                "workDate": {
+                    "from": "March 2021",
+                    "to": "April 2021"
+                },
+                "location": "Mysore",
+                "role": "Full Stack Web Developer",
+                "description": [
+                    "Developed Web Applications for Machine Learning algorithms and models in Data Analyst Department as per organizational requirements.",
+                    "Mainly worked on JavaScript, HTML/CSS, JQuery and Bootstrap.",
+                    "Also developed several machine learning models based on algorithms on projects undertaken by Contriver."
+                ]
+            }
+        ]
+    },
+    "education": {
+        "label": "Education",
+        "icon": "mdi-school",
+        "value": [
+            {
+                "degree": "Bachelor of Engineering",
+                "major": "Computer Science",
+                "institution": "Vidya Vikas Institute of Engineering and Technology",
+                "studyDate": {
+                    "from": "2017",
+                    "to": "2021"
+                },
+                "grade": {
+                    "label": "CGPA ",
+                    "value": "8.1"
+                },
+                "location": "Mysore, Karnataka"
+            },
+            {
+                "degree": "Pre-University | XII",
+                "major": "Electronics",
+                "institution": "Sadvidya Composite PU College",
+                "studyDate": {
+                    "from": "2015",
+                    "to": "2017"
+                },
+                "grade": {
+                    "label": "Percentage ",
+                    "value": "86%"
+                },
+                "location": "Mysore, Karnataka"
+            },
+            {
+                "degree": "SSLC | X",
+                "major": "",
+                "institution": "Sadvidya High School",
+                "studyDate": {
+                    "from": "2014",
+                    "to": "2015"
+                },
+                "grade": {
+                    "label": "Percentage ",
+                    "value": "90%"
+                },
+                "location": "Mysore, Karnataka"
+            }
+        ]
+    },
+    "projects": {
+        "label": "Projects",
+        "icon": "mdi-clipboard-text-multiple",
+        "value": [
+            {
+                "name": "NGF Physical Chemical Properties Prototype",
+                "organization": "Dassault Systemes",
+                "description": [
+                    "Next-Generation Formulation widget integrating on-premises with cloud environment.",
+                    "The widget enables seamless PLM management of Formulation and other data types.",
+                    "Widget encompasses complex various fields and properties intrinsically dependent on each other, thus being highily dynamic with business logic.",
+                    "Mainly worked on UI design using VueJS framework, JavaScript, HTML/CSS.",
+                    "Single-handedly worked on the application development for a duration of 3 months."
+                ]
+            },
+            {
+                "name": "Local Co-Ordinator Prototype",
+                "organization": "Dassault Systemes",
+                "description": [
+                    "Highly interactive and powerful widget 3DEXPERIENCE Platform that assists in seamless management of Business Objects of type POA by providing PLM services.",
+                    "The widget being a successor of an old RTA tool, mainly provided insights on complex relations between Business Objects with options to modify data or create & connect business objects.",
+                    "Development time for the project spanned 6 months with the use of VueJS Framework and RESTful web services in Java."
+                ]
+            },
+            {
+                "name": "Study Protocol",
+                "organization": "Dassault Systemes",
+                "description": [
+                    "Light weight widget developed to provide PLM to Business Object of type Study Protocol.",
+                    "The widget incorporated advanced UI features such as Drag & Drop and Publish Subscribe Events to interact with other widgets.",
+                    "Developed using VueJS Framework and RESTful web services in Java, I worked on providing debugging support and added new functionalities."
+                ]
+            },
+            {
+                "name": "Employee Churn Prognostication",
+                "organization": "Vidya Vikas Institute of Engineering and Technology",
+                "description": [
+                    "A machine learning project in python integrated with NodeJS server.",
+                    "The ML model is trained to accurately predict the attrition of any employee and provide major reasons for churn.",
+                    "Additionally, solutions to prevent this churn are also recommended.",
+                    "The model also predicts how long an employee may retain in the company based on his history and data.",
+                    "An appealing & interactive front-end web user interface is also coalesced. "
+                ]
+            },
+            {
+                "name": "General Scripts (Blog Website)",
+                "organization": "Personal Project",
+                "description": [
+                    "A blog website hosted on Heroku using NodeJS for server.",
+                    "The source pages are stored remotely in GitHub repository.",
+                    "The project uses HTML5, CSS, Javascript, JQuery, Bootstrap for frontend.",
+                    "MongoDB is to be used as Database."
+                ]
+            },
+            {
+                "name": "Authentication Using Facial Recognition",
+                "organization": "Contriver",
+                "description": [
+                    "An android application created to capture sequence of pictures, recognize face using Digital Image Processing and detect facial changes such as eye blinks, expressions and movement for user authentication thereby providing suitable replacement for Captchas."
+                ]
+            },
+            {
+                "name": "Handwritten Digit Recognition and Classification",
+                "organization": "Verzeo",
+                "description": [
+                    "A machine learning project built using SVM algorithm trained to recognize and classify handwritten digits ranging from 0 to 9.",
+                    "The project implemented in python using scikit-learn library and the model has an accuracy of over 96 percent."
+                ]
+            },
+            {
+                "name": "Luxurious Car Rental System",
+                "organization": "Vidya Vikas Institute of Engineering and Technology",
+                "description": [
+                    "A web application providing Super and Luxurious Cars renting service.",
+                    "Developed using Java Server Pages, HTML and CSS for front-end, MySQL as Database, Apache as web server, it’s a robust project incorporating unique idea to extrapolate existing car rental service."
+                ]
+            }
+        ]
+    },
+    "certifications": {
+        "label": "Certifications",
+        "icon": "mdi-certificate",
+        "value": [
+            {
+                "name": "IELTS",
+                "organization": "IDP",
+                "description": [
+                    "Overall Band Score  : 7.5",
+                    "Listening :  8.5",
+                    "Reading   : 8.5",
+                    "Writing   : 7.0",
+                    "Speaing   : 6.5"
+                ]
+            },
+            {
+                "name": "VueJS",
+                "organization": "LinkedIn Learning",
+                "link": "Vue-Essential-Training.pdf"
+            },
+            {
+                "name": "VueJS Basics",
+                "organization": "LinkedIn Learning",
+                "link": "Learning-Vue.js.pdf"
+            },
+            {
+                "name": "GitHub",
+                "organization": "LinkedIn Learning",
+                "link": "GitHub-Essentials.pdf"
+            },
+            {
+                "name": "RESTful API",
+                "organization": "LinkedIn Learning",
+                "link": "Become-A-RESTful-API-Developer.pdf"
+            },
+            {
+                "name": "Data Structures and Algorithms",
+                "organization": "LinkedIn Learning",
+                "link": "Introduction-To-Data-Structures-Algorithms -Java.pdf"
+            },
+            {
+                "name": "JavaScript Best Practices",
+                "organization": "LinkedIn Learning",
+                "link": "JavaScript-Best-Practices-For-Code-Formatting.pdf"
+            },
+            {
+                "name": "Webpack 4",
+                "organization": "LinkedIn Learning",
+                "link": "Learning-Webpack-4.pdf"
+            },
+            {
+                "name": "Android App Development 1",
+                "organization": "Coursera",
+                "link": "Android-App-Development-1.pdf"
+            },
+            {
+                "name": "Android App Development 2",
+                "organization": "Coursera",
+                "link": "Android-App-Development-2.pdf"
+            },
+            {
+                "name": "Java For Android",
+                "organization": "Coursera",
+                "link": "Java-For-Android.pdf"
+            },
+            {
+                "name": "Machine Learning ",
+                "organization": "Coursera",
+                "link": "Machine-Learning.pdf"
+            },
+            {
+                "name": "Deep Learning",
+                "organization": "Coursera",
+                "link": "Deep-Learning.pdf"
+            },
+            {
+                "name": "HTML, CSS and JavaScript For Web Development",
+                "organization": "Coursera",
+                "link": "HTML-CSS-JavaScript-For-Web-Development.pdf"
+            },
+            {
+                "name": "Programming in JavaScript, HTML & CSS",
+                "organization": "Coursera",
+                "link": "Programming-In-JavaScript-HTML-CSS.pdf"
+            },
+            {
+                "name": "Unity Game Development",
+                "organization": "Udemy",
+                "link": "Unity-Game-Development.pdf"
+            },
+            {
+                "name": "Web Development and Machine Learning Internship",
+                "organization": "Contriver",
+                "link": "Contriver-Internship.pdf"
+            },
+            {
+                "name": "Verzeo Internship Certificate",
+                "organization": "Verzeo",
+                "link": "Verzeo-Internship-Certificate.pdf"
+            },
+            {
+                "name": "Verzeo Course Completion Certificate",
+                "organization": "Verzeo",
+                "link": "Verzeo-Course-Completion-Certificate.pdf"
+            },
+            {
+                "name": "SYMBIOT Hackathon",
+                "organization": "Vidya Vardhaka College of Engineering",
+                "link": "SYMBIOT-Hackathon.pdf"
+            },
+            {
+                "name": "GSSS Hackathon",
+                "organization": "GSSS",
+                "link": "GSSS-Hackathon.pdf"
+            },
+            {
+                "name": "Github MLH",
+                "organization": "Vidya Vikas Institute of Engineering and Technology",
+                "link": "Github-MLH.pdf"
+            },
+            {
+                "name": "IBM MLH",
+                "organization": "Vidya Vikas Institute of Engineering and Technology",
+                "link": "IBM-MLH.pdf"
+            },
+            {
+                "name": "IEEE Innovation and Creativity Workshop",
+                "organization": "Vidya Vikas Institute of Engineering and Technology",
+                "link": "IEEE-Innovation-And-Creativity-Workshop.pdf"
+            },
+            {
+                "name": "Pre-University Distinction",
+                "organization": "Sadvidya Pre-University College",
+                "link": "Pre-University-Distinction.pdf"
+            }
+        ]
+    },
+    "languages": {
+        "label": "Languages",
+        "icon": "mdi-translate-variant",
+        "value": [
+            "English",
+            "Hindi",
+            "Kannada",
+            "Tulu"
+        ]
+    },
+    "hobbies": {
+        "label": "Hobbies",
+        "icon": "mdi-weight-lifter",
+        "value": [
+            "Stock Equities and Future Derivative Contracts",
+            "Open World, Multiplayer and RPG Computer Games",
+            "Sanaatana Dwaita Philosophy",
+            "Bike Rides and Trips",
+            "Music",
+            "Cricket"
+        ]
+    },
+    "contact": {
+        "label": "Contact",
+        "details": [
+            {
+                "label": "Phone",
+                "value": "+91 7411811650",
+                "type": "phone"
+            },
+            {
+                "label": "Email",
+                "value": "dheerajgk21@gmail.com",
+                "type": "email"
+            },
+            {
+                "label": "LinkedIn",
+                "value": "https://www.linkedin.com/in/dheeraj-g-5b2a561b7/",
+                "type": "link"
+            },
+            {
+                "label": "Github",
+                "value": "https://github.com/DheerajGk21",
+                "type": "link"
+            },
+            {
+                "label": "Resume",
+                "value": "/assets/resume/Dheeraj CV.pdf",
+                "type": "assetLink"
+            },
+            {
+                "label": "Address",
+                "value": "2841/B, Ananthanilaya, Halladakeri, Mysuru, Karnataka, India - 570001"
+            }
+        ]
+    },
+    "summary": {
+        "label": "Summary",
+        "icon": "mdi-note-text",
+        "name": "Dheeraj G",
+        "value": {
+            "brief": [
+                "Software Engineering Specialist with 2+ years of experience in Full Stack Development having worked on more than 4 projects.",
+                "B.E graduate in Computer Science, immensely passionate about Web Development and Programming.",
+                "Fundamental knowledge of software design with exceptional programming skills in JavaScript, VueJS and Java. Experienced and proficient in developing, debugging and improving software.",
+                "Effective communicator seamlessly able to adapt to new environments."
+            ],
+            "long": [
+                "Software Engineering Specialist with 2+ years of experience in Full Stack Development having worked on more than 4 projects on Web UI and Web Services.",
+                "B.E graduate in Computer Science, immensely passionate about Web Development, Programming and Financial Markets.",
+                "Fundamental knowledge of software design with exceptional programming skills in JavaScript, VueJS and Java. Experienced and proficient in developing, debugging and improving software.",
+                "Keen interests lie majorly in UI Design, Backend Development, Financial Markets, Artificial Intelligence & Machine Learning.",
+                "Effective communicator seamlessly able to adapt to new environments. Always being on a  lookout for exponential growth, I am very eager to explore new opportunities and technologies."
+            ]
+        }
+    }
+}
