@@ -1,5 +1,6 @@
 # PERSONAL BLOGSITE - DHEERAJ G
 
+
 ## Production Deployment
 
 ### Several changes has to be made when migrating from local server to GitHub Static page.
@@ -13,18 +14,23 @@
 7. Commit the code.
 8. Clear Cache and Hard Reload the browser atleast threetimes.
 
+
 > Note : `/src/assets/config.json` has to be updated whenever new repositories are created for static websites.
+
+
 
 ## Local Deployment
 
 1. In `/src/assets/config.json`, toggle `productionMode` to `false`.
 2. Create the build using `npm run dev`.
 
+
+
 ## BlogSiteIndo.json structure for Reusability
 
 ```
 {
-    `// Do not modify ***excludeFields***.`
+    // Do not modify "excludeFields".
     "excludeFields": [
         "excludeFields",
         "name",
@@ -33,16 +39,16 @@
         "contact"
     ],
 
-    `// Name of Person.`
+    // Name of Person.
     "name": "Dheeraj G",
 
-    `// Designation : Only update ***value*** field.`
+    // Designation : Only update "value" field.
     "designation": {
         "label": "Designation",
         "value": "Software Engineering Specialist"
     },
 
-    `// Experience : Only update ***value*** fields.`
+    // Experience : Only update "value" fields.
     "experience": {
         "label": "Experience",
         "value": {
@@ -53,7 +59,7 @@
         }
     },
 
-    `// Skills : Only update ***value*** field.`
+    // Skills : Only update "value" field.
     "skills": {
         "label": "Skill Highlights",
         "icon": "mdi-wrench-cog",
@@ -64,7 +70,7 @@
         ]
     },
 
-    `// Work Experience : Only update ***value*** field.`
+    // Work Experience : Only update "value" field.
     "work": {
         "label": "Work Experience",
         "icon": "mdi-briefcase-clock",
@@ -92,7 +98,7 @@
         ]
     },
 
-    `// Education : Only update ***value*** field.`
+    // Education : Only update "value" field.
     "education": {
         "label": "Education",
         "icon": "mdi-school",
@@ -120,7 +126,7 @@
         ]
     },
 
-    `// Projects : Only update ***value*** field.`
+    // Projects : Only update "value" field.
     "projects": {
         "label": "Projects",
         "icon": "mdi-clipboard-text-multiple",
@@ -142,9 +148,9 @@
         ]
     },
 
-    `// Certifications : Only update ***value*** field.`
-    `// In absense of Certificate Link, Description can be used.`
-    `// Use either ***description*** or ***link***. Never use both.`
+    // Certifications : Only update "value" field.
+    // In absense of Certificate Link, Description can be used.
+    // Use either "description" or "link". Never use both.
     "certifications": {
         "label": "Certifications",
         "icon": "mdi-certificate",
@@ -165,7 +171,7 @@
         ]
     },
 
-    `// Languages : Only update ***value*** field.`
+    // Languages : Only update "value" field.
     "languages": {
         "label": "Languages",
         "icon": "mdi-translate-variant",
@@ -175,7 +181,7 @@
         ]
     },
 
-    `// Hobbies : Only update ***value*** field.`
+    // Hobbies : Only update "value" field.
     "hobbies": {
         "label": "Hobbies",
         "icon": "mdi-weight-lifter",
@@ -185,10 +191,10 @@
         ]
     },
 
-    `// Contact : Only update ***label***, ***value*** & ***type*** fields in ***details***.`
-    `// Types : ***phone***, ***email***, ***link***, ***assetLink***.`
-    `// If ***type*** is not defined, it is regarded as ***text***.`
-    `// If ***assetLink***, mention the path with filename and extention pointing to ***/src/assets*** folder.`
+    // Contact : Only update "label", "value" & "type" fields in "details".
+    // Types : "phone", "email", "link", "assetLink".
+    // If "type" is not defined, it is regarded as "text".
+    // If "assetLink", mention the path with filename and extention pointing to "/src/assets" folder.
     "contact": {
         "label": "Contact",
         "details": [
@@ -219,7 +225,7 @@
         ]
     },
 
-    `// Summary : Only update ***brief*** & ***long*** fields in ***value***.`
+    // Summary : Only update "brief" & "long" fields in "value".
     "summary": {
         "label": "Summary",
         "icon": "mdi-note-text",
