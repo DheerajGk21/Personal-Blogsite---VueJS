@@ -35,7 +35,7 @@
       class="workExperience cardContainer h-w-100"
     >
       <v-card
-        width="500"
+        width="600"
         elevation="16"
         class="rounded-xl"
         link
@@ -172,8 +172,11 @@
     </div>
 
     <!----------------- Summary ----------------->
-    <div v-if="modalContent?.label === 'Summary'" class="summary cardContainer h-w-100">
-      <v-card width="600" elevation="16" class="rounded-xl" link>
+    <div
+      v-if="modalContent?.label === 'Summary'"
+      class="summary cardContainer h-w-100"
+    >
+      <v-card width="700" elevation="16" class="rounded-xl" link>
         <v-card-item>
           <v-card-title class="summaryName"> {{ modalContent?.name }} </v-card-title>
           <v-divider></v-divider>
@@ -238,7 +241,7 @@ function openCertification(certificate) {
 
 .v-divider {
   color: var(--lightest-1);
-  height: 2px;
+  opacity: 0.2 !important;
 }
 
 /* ----- aligns overflowing cards to next row ----- */
@@ -261,10 +264,11 @@ function openCertification(certificate) {
 /* -------- Work Experience -------- */
 .workExperience {
   flex-wrap: wrap;
+  padding: 0 3%;
 }
 
 .workExperience .v-card {
-  margin: 20px 10px;
+  margin: 20px 20px;
 }
 
 .workExperience .v-card-item {

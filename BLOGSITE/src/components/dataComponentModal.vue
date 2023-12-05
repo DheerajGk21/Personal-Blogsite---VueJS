@@ -48,7 +48,7 @@ function closeModal() {
   width: 90%;
   background: var(--lightest-1);
   margin: auto;
-  border-radius: var(--bor);
+  border-radius: var(--borderRadius);
   overflow-x: hidden;
 }
 

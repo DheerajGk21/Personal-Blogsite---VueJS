@@ -244,3 +244,9 @@
     }
 }
 ```
+
+
+## Update Profile Picture
+
+1. In `/assets/images/`, insert the profile picture with `author.png` as filename and extension.
+2. The Profile Picture image should be in PNG format.

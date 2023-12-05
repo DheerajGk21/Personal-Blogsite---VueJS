@@ -13,14 +13,15 @@ import blogSiteInfo from "../assets/conf/blogSiteInfo.json";
 
 <style scoped>
 .introduction {
-  width: 88%;
+  width: 90%;
   height: 30%;
   margin: 0% 6%;
-  padding: 0 3% 8% 4%;
+  padding: 6% 0;
   border-radius: 0px 0px var(--borderRadius) var(--borderRadius);
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-end;
   text-align: center;
   background: var(--light-1);
 }
@@ -32,7 +33,7 @@ import blogSiteInfo from "../assets/conf/blogSiteInfo.json";
 }
 
 .text-h6 {
-  margin-left: 2%;
+  margin: auto 2%;
 }
 
 .designation {

@@ -24,6 +24,7 @@ import blogSiteInfo from "../assets/conf/blogSiteInfo.json";
 .text-body-1 {
   height: 100%;
   font-family: unset !important;
+  font-size: 0.9rem !important;
   margin: 5%;
 }
 </style>

@@ -149,7 +149,7 @@ function openModal(modalData) {
 
 .mainCardName {
   color: var(--white);
-  font-size: x-large;
+  font-size: larger;
   font-weight: bold;
   margin: 0 auto;
 }
@@ -178,7 +178,7 @@ function openModal(modalData) {
 }
 
 .cardLabel {
-  font-size: x-large;
+  font-size: larger;
   font-weight: bold;
 }
 </style>
