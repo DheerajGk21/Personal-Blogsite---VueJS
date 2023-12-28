@@ -239,6 +239,11 @@
                 "link": "Learning-Vue.js.pdf"
             },
             {
+                "name": "ReactJS",
+                "organization": "LinkedIn Learning",
+                "link": "ReactJS-Essential-Training.pdf"
+            },
+            {
                 "name": "GitHub",
                 "organization": "LinkedIn Learning",
                 "link": "GitHub-Essentials.pdf"
